@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,100&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    font-weight: 900;
+    font-family: Poppins
+}
+#heading{
+    font-size: 38px;
+    margin: 0;
+    margin-bottom: 8px;
+    backdrop-filter: blur(20px);
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: rgba(137, 43, 226, 0.332);
+    /* text-shadow: 2px 1px 6px blueviolet; */
+}
+#game{
+    /* display: flex;
+    flex-direction: column; */
+    text-align: center;
+    justify-content: center;
+    margin: 40px 400px;
+}
+#block{
+    border: 3px solid black;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 40px 20px 40px;
+    height: 580px;
+    width: 600px;
+    /* background-color: black; */
+    backdrop-filter: blur(30px);
+}
+#msgs{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#guess{
+    width: 250px;
+    height: 45px;
+    border-radius: 30px;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 30px;
+    background-color: antiquewhite;
+    color: blueviolet;
+}
+#title{
+    font-size: 55px;
+    margin: 10px auto 10px;
+    text-shadow: 2px 1px 25px blueviolet;
+}
+span{
+    margin: 3px;
+    font-size: 22px;
+}
+#array{
+    color: blueviolet;
+}
+#number{
+    color: blueviolet;
+}
